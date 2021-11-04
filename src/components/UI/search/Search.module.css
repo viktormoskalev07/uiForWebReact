@@ -1,0 +1,36 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search h1 {
+    color: #04488D;
+    font-size: 28px;
+}
+.search input {
+    height: 35px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14px;
+}
+.search form {
+    min-width: 300px;
+}
+.search button {
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    right: 5px;
+    top: 1px;
+    cursor: pointer;
+    border: none;
+    background: url("../../../images/search.svg") no-repeat center white;
+}
+.search input::placeholder {
+    color: #bebebe;
+    font-size: 14px;
+}

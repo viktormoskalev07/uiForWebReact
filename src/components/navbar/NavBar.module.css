@@ -1,0 +1,30 @@
+.navBar {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(11, 11, 11, 0.18);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(11, 11, 11, 0.18);
+    box-shadow: 0px 4px 4px 0px rgba(11, 11, 11, 0.18);
+    margin-bottom: 40px;
+}
+.navbarMenu {
+    display: flex;
+}
+.navbarMenu li{
+    margin-right: 60px;
+}
+.navbarMenu li a {
+    color: #343434;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.navbarMenu li img {
+    margin-right: 10px;
+}
+.navbarMenu li:last-child {
+    margin-right: 30px;
+}
